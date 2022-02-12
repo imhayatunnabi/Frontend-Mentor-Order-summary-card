@@ -23,14 +23,9 @@ main {
      display: flex;
      justify-content: center;
      align-items: center;
-     transform: translateY(-1500px);
-     transition: 1.3s all ease-out;
      
 }
 
-.reveal {
-     transform: translateY(0);
-}
 
 section {
      width: 85%;
