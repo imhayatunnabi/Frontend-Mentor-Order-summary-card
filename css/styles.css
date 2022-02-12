@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+*{
+     margin: 0;
+     font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+     text-align: center;
+     background: hsl(225, 100%, 94%);
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+}
+
+.dark-txt {
+     color: hsl(223, 47%, 23%);
+}
+
+main {
+     height: 90%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transform: translateY(-1500px);
+     transition: 1.3s all ease-out;
+     
+}
+
+.reveal {
+     transform: translateY(0);
+}
+
+section {
+     width: 85%;
+     margin: auto;
+     border-radius: 25px;
+     background: hsl(225, 100%, 98%);
+     max-width: 414px;
+}
+
+.hero {
+     max-width: 100%;
+     border-top-left-radius: 25px;
+     border-top-right-radius: 25px;
+}
+
+.order-summary-text {
+     padding: 5%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     gap: 2rem;
+     width: 75%;
+     margin: auto;
+}
+
+.annual-plan {
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+
+}
+
+.price {
+     text-align: left;
+}
+
+.price .dark-txt {
+     padding-bottom: 5px;
+}
+
+.change {
+     color: hsl(245, 75%, 52%);
+     padding-bottom: 3px;
+     border-bottom: 1.2px solid;
+     margin-left: auto;
+}
+
+.change:hover {
+     border: none;
+     cursor: pointer;
+     color: hsl(224, 23%, 55%);
+}
+
+.payment-btn {
+     border: none;
+     background: hsl(245, 75%, 52%);
+     padding: 6%;
+     border-radius: 1rem;
+     color: hsl(225, 100%, 98%);
+}
+
+.payment-btn:hover {
+     background: hsl(224, 23%, 55%);
+     cursor: pointer;
+}
+
+.light-txt{
+     color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+     cursor: pointer;
+     color: hsl(223, 47%, 23%);
+}
+
+aside {
+     display: none;
+}
+
+.view-order {
+     display: block;
+}
